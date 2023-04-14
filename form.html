@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registration</title>
+</head>
+<body>
+    <form>
+        <!-- Form Registration -->
+        <h1>Registration Form</h1>
+        <p> In this side, you can fill in the form for registration into my website.</p>
+        <br><br>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+            <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+            <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+            <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+            <br>
+        <input type="radio" id="Male" name="Gender"><label for="Male">Male</label>
+        <input type="radio" id="Female" name="Gender"><label for="Female">Female</label>
+            <br>
+        <input type="checkbox" id="Valorant"><label for="Valorant">Valorant</label>
+        <input type="checkbox" id="CSGO"><label for="CSGO">CSGO</label>
+        <input type="checkbox" id="Dota2"><label for="Dota2">Dota2</label>
+        <input type="checkbox" id="PUBG"><label for="PUBG">PUBG</label>
+            <br>
+        <textarea name="Feedback" id="Feedback" cols="30" rows="10"></textarea>
+            <br>
+        <select name="City" id="City">
+            <option value="Jakarta">Jakarta</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Surabaya">Surabaya</option>
+            <option value="Yogyakarta">Yogyakarta</option>
+        </select>
+        <!-- Register button -->
+        <p> <input type="submit" value="Register"> </p>
+        <!-- Reset button -->
+        <p> <input type="reset" value="Reset"> </p>
+    </form>
+</body>
+</html>
